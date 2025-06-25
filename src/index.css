@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BrandonText";
+  src: url("./assets/fonts/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonText";
+  src: url("./assets/fonts/HvDTrial_Brandon_Text_Medium-BF6514e9eb272a3.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonText";
+  src: url("./assets/fonts/HvDTrial_Brandon_Text_Bold-BF6514e9eb720dc.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #4caf50;
+  --primary-dark: #2e7d32;
+  --bg-color: #fafafa;
+  --accent-color: #a1887f;
+  --text-color: #333333;
+  --text-muted: #757575;
+  --font-bt: BrandonText, "sans-serif";
+  background: var(--bg-color);
+}
