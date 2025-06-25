@@ -4,18 +4,18 @@ const Services = () => {
       title: "Tampah",
       description:
         "A traditional mat used for winnowing rice and other foodstuffs.",
-      image: "src/assets/Tampah.jpg",
+      image: "./assets/Tampah.jpg",
     },
     {
       title: "Irig",
       description: "Storage for crops or household goods.",
-      image: "src/assets/Tampah.jpg",
+      image: "./assets/Tampah.jpg",
     },
     {
       title: "Bamboo Basket",
       description:
         "A multifunctional basket for the kitchen, market, and decoration.",
-      image: "src/assets/Tampah.jpg",
+      image: "./assets/Tampah.jpg",
     },
   ];
 
