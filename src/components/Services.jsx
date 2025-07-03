@@ -1,21 +1,30 @@
 const Services = () => {
   const products = [
     {
-      title: "Tampah",
+      title: "Bamboo Woven Tray Size 40",
       description:
         "A traditional mat used for winnowing rice and other foodstuffs.",
+      price: "$24",
       image: "src/assets/Tampah.jpg",
     },
     {
-      title: "Irig",
+      title: "Bamboo Bread Basket",
       description: "Storage for crops or household goods.",
-      image: "src/assets/Tampah.jpg",
+      price: "$17",
+      image: "src/assets/Irig.jpeg",
     },
     {
       title: "Bamboo Basket",
       description:
         "A multifunctional basket for the kitchen, market, and decoration.",
-      image: "src/assets/Tampah.jpg",
+      image: "src/assets/bakul.jpeg",
+    },
+    {
+      title: "Dried Seaweed Eucheuma Cottoni",
+      description:
+        "A multifunctional basket for the kitchen, market, and decoration.",
+      price: "$3/kg",
+      image: "src/assets/Rumput laut.jpeg",
     },
   ];
 
@@ -33,7 +42,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid gap-10 md:grid-cols-3">
+      <div className="grid gap-10 md:grid-cols-4">
         {products.map((product, index) => (
           <div
             key={index}
@@ -55,6 +64,9 @@ const Services = () => {
                 <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
                 <p className="text-sm text-gray-200 mb-4 text-justify">
                   {product.description}
+                </p>
+                <p className="text-lg font-bold text-yellow-300 mb-2">
+                  {product.price}
                 </p>
                 <button className="px-4 py-2 bg-white text-gray-900 font-semibold text-sm rounded-md hover:bg-gray-100 hover:scale-105 transition-transform duration-200 ease-in-out">
                   Buy Now
