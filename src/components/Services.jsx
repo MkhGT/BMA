@@ -5,26 +5,26 @@ const Services = () => {
       description:
         "A traditional mat used for winnowing rice and other foodstuffs.",
       price: "$24",
-      image: "src/assets/Tampah.jpg",
+      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Tampah.jpg",
     },
     {
       title: "Bamboo Bread Basket",
       description: "Storage for crops or household goods.",
       price: "$17",
-      image: "src/assets/Irig.jpeg",
+      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Irig.jpeg",
     },
     {
       title: "Bamboo Basket",
       description:
         "A multifunctional basket for the kitchen, market, and decoration.",
-      image: "src/assets/bakul.jpeg",
+      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/bakul.jpeg",
     },
     {
       title: "Dried Seaweed Eucheuma Cottoni",
       description:
         "A multifunctional basket for the kitchen, market, and decoration.",
       price: "$3/kg",
-      image: "src/assets/Rumput laut.jpeg",
+      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Rumput laut.jpeg",
     },
   ];
 
