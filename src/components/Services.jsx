@@ -22,7 +22,7 @@ const Services = () => {
     {
       title: "Dried Seaweed Eucheuma Cottoni",
       description:
-        "A multifunctional basket for the kitchen, market, and decoration.",
+        "High-quality dried Eucheuma cottonii seaweed, rich in fiber, minerals, and nutrients. Ideal for jelly, cosmetic uses & many more.",
       price: "$3/kg",
       image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Rumput laut.jpeg",
     },
