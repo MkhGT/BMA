@@ -32,7 +32,7 @@ const Services = () => {
       description:
         "Sustainable agricultural byproduct, ideal for organic farming and gardening needs. Made from carefully selected rice husks.",
       price: "$7.41/kg",
-      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Rumput laut.jpeg",
+      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Sekam-Beras.jpg",
     },
   ];
 
