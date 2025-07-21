@@ -6,11 +6,9 @@ const About = () => {
       <div className="mx-auto text-center">
         <h2 className="text-xl md:text-3xl font-bold mb-6">About Us</h2>
         <p className="text-sm md:text-lg text-gray-600 leading-relaxed text-justify md:text-center">
-          PT Barayasa Maizan Abadi is a bamboo craft company from Indonesia
-          committed to sustainability, culture, and community empowerment. We
-          produce handcrafted items like tampah, irig, and bamboo baskets that
-          reflect the soul of Indonesian tradition and the beauty of natural
-          materials.
+          PT Barayasa Maizan Abadi is an Indonesian company that produces eco-friendly agricultural and handcrafted products. We offer traditional bamboo items such as woven trays (tampah), bread baskets (irig), and rice cooking baskets (bakul)—designed to blend everyday function with cultural heritage.
+
+In addition to crafts, we also provide natural agricultural goods like dried Eucheuma cottonii seaweed and premium rice husks, supporting sustainable practices in food, farming, and wellness. Our mission is to empower communities through products that reflect the values of tradition, nature, and quality.
         </p>
       </div>
     </section>
