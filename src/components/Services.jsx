@@ -14,9 +14,10 @@ const Services = () => {
       image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Irig.jpeg",
     },
     {
-      title: "Bamboo Basket",
+      title: "Woven Bamboo Rice Cooking Basket",
       description:
         "A multifunctional basket for the kitchen, market, and decoration.",
+      price: "$35",
       image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/bakul.jpeg",
     },
     {
@@ -24,6 +25,13 @@ const Services = () => {
       description:
         "High-quality dried Eucheuma cottonii seaweed, rich in fiber, minerals, and nutrients. Ideal for jelly, cosmetic uses & many more.",
       price: "$3/kg",
+      image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Rumput laut.jpeg",
+    },
+    {
+      title: "Premium Natural Rice Husk",
+      description:
+        "Sustainable agricultural byproduct, ideal for organic farming and gardening needs. Made from carefully selected rice husks.",
+      price: "$7.41/kg",
       image: "https://raw.githubusercontent.com/MkhGT/BMA/main/src/assets/Rumput laut.jpeg",
     },
   ];
@@ -42,7 +50,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid gap-10 md:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {products.map((product, index) => (
           <div
             key={index}
