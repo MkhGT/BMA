@@ -25,7 +25,7 @@ const Hero = () => {
           For the <span style={{ color: "var(--primary-color)" }}>world</span>
         </h1>
         <p className="text-white text-sm md:text-2xl text-center mt-2 px-4 md:px-0">
-          "Eco-friendly, culturally rich, and globally trusted bamboo crafts."
+          "Timeless Craft, Sustainable Choice, Global Impact."
         </p>
       </div>
     </section>
