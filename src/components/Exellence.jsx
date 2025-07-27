@@ -3,25 +3,25 @@ const Exellence = () => {
     {
       title: "Eco-Friendly",
       description:
-        "Our bamboo is harvested responsibly, reducing environmental impact and promoting sustainability.",
+        "We use responsibly sourced natural materials to reduce environmental impact and support a sustainable lifestyle.",
       iconClass: "ri-leaf-line text-emerald-600",
     },
     {
       title: "Healthy Living",
       description:
-        "Bamboo is naturally antibacterial, making our products safe for food storage and everyday use.",
+        "Our products are safe for everyday use—free from harmful chemicals and designed to support your well-being.",
       iconClass: "ri-shield-check-line text-green-600",
     },
     {
       title: "Cultural Heritage",
       description:
-        "Each item is handwoven by local artisans, preserving Indonesian traditions and supporting communities.",
+        "Each piece is handcrafted by local artisans, preserving Indonesian traditions and empowering communities.",
       iconClass: "ri-hand-heart-line text-yellow-600",
     },
     {
       title: "Global Quality",
       description:
-        "We meet international standards, ensuring our bamboo crafts are export-ready and world-class.",
+        "We follow international standards to ensure our crafts are export-ready, reliable, and globally trusted.",
       iconClass: "ri-global-line text-blue-600",
     },
   ];
